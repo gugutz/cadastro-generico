@@ -1,0 +1,118 @@
+@charset "utf-8";
+html	{
+	font-family:Calibri, SegoeUI, Tahoma, Verdana, Geneva, sans-serif, fixed-sys;
+}
+td	{
+	padding:4px;
+}
+#wrapper {
+	width: 99%;
+	margin: 0 auto;
+	text-align: left;
+	}
+/* #LEFTMENU, .MENU A.MENULINK  E  .MENU A:HOVER.MENULINK são as definições de estrutura e design do menu do site. */
+#leftmenu {
+	/* Estrutura */
+	width: 15%;
+	/* Posição */
+	float: left;
+	margin-top:10px;
+	border-right:0.5px solid black;
+	}
+.menu {
+	padding:5px;
+	margin-bottom: 7px;
+	color: black;
+	background: inherit;
+	}
+.menu a.menulink {
+	color: white;
+	display: block;
+	text-decoration: none;
+	width: 170px;
+	height: 22px;
+	padding-left: 10px;
+	}
+.menu a:hover.menulink {
+	font-weight: bold;
+	background-color:#009;
+	color:#FFF;
+	}
+/* Esta div serve apenas para agrupar as noticias em uma unica coluna comun. Desta forma, eu posso incluir um arquivo que contem varias noticias usando apenas uma div (divs so podem ter uma por pagina) */
+#content {
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	height: 100%;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	padding: 4px;
+	width: 70%;
+	}
+.valign-text-top {
+	vertical-align:text-top;
+	font-weight:bold;
+}
+table tr	{
+	border:1px solid black;
+}
+table tr td {
+	vertical-align:text-top;
+	line-height:95%;
+}
+a	{
+	text-decoration:none;
+	color:#F00;
+	background-color:#003;
+	cursor:hand;
+}
+a.visited	{
+	text-decoration:none;
+	color:#F00;
+	background-color:#003;
+	cursor:hand;
+}
+.bg-darkgray {
+	color:black;
+	border:1px dotted black;
+	background-color:#999;
+}
+.bg-lightgray {
+	color:#D2D2D2;
+	border:1px dotted black;
+	background-color:#999;
+}
+#cl_detail_table	{
+	width:800px;
+	margin:0 auto;
+	border:1px solid black;
+}
+#cl_detail_table td	{
+	border:1px solid black;
+}
+.cl-table-td-header	{
+	padding:0px 3px 0.25px 3px;
+	font-weight:bolder;
+	background-color:black;
+	color:#FFF;
+	border:0.1px groove black;
+	font-size:9px;
+}
+.cl-table-td-content {
+	padding:15px 3px 0px 10px;
+	font-weight:normal;
+	font-size:16px;
+	vertical-align:text-bottom;
+}
+.bg-darkgray:hover {
+	background-color:#9F9;
+	color:#003;
+}
+.td-title {
+	color:#FFF;
+	background-color:#339;
+	font-weight:bold;
+	text-align:center;
+	background-color:#309;
+	color:#FFF;
+}
